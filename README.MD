@@ -1,9 +1,12 @@
-Problem specifications
+# Parliamentary Elections
+
+
+## Problem Specifications
 
 This project consists of a pair of classes that read and analyse election data. They are intended to process data from Canada, but also to work for other parliamentary democracies.
 
 
-Terminology
+## Terminology
 
 Parliamentary democracy is a democratic form of government in which citizens elect people to represent them, and the prime minister is determined based on the number of representatives elected by the various political parties.
 The legislature or parliament of a country, state, or province is the group of elected representatives. They have the authority to make decisions and pass laws.
@@ -19,9 +22,9 @@ Canada’s electoral system is referred to as a “first-past-the-post” system
 The party with the most seats over all ridings wins the election.
 
 
-Election data files
+## Election data files
 
-The code is designed to be able to load election data from any data files that follows these rules:
+_The code is designed to be able to load election data from any data files that follows these rules_:
 
 The file is in csv format, which means that each line represents a row of a table, and the table cells on that line are separated by commas.
 Each row has the same number of table cells (and hence the same number of commas).
@@ -35,12 +38,13 @@ Additional votes for that party in that riding could be recorded elsewhere in th
 Each file could contain results from more than one polling station, and each polling station could have results split across multiple files. The program can be used to read data from a series of files.
 
 
-The program
+## The program
 
-The code consists of two classes: Election and Jurisdiction.
+_The code consists of two classes_:
+Election and Jurisdiction.
 
 An instance of class Election records data about a single election.
 An instance of class Jurisdiction records data about any number of past elections in a particular jurisdiction. It does so by containing within itself any number of instances of Election.
 You will notice that party names are not defined by constants. This is because there is no fixed number of parties or party names. The program discovers party names as it reads data file(s).
 
-You will see methods that have a parameter whose type is TextIO.
+Also, there are methods that have a parameter whose type is TextIO.
