@@ -1,21 +1,3 @@
-"""CSC148 Assignment 0: Starter code
-
-=== CSC148 Winter 2022 ===
-Department of Computer Science,
-University of Toronto
-
-=== Module description ===
-This module contains starter code for Assignment 0.
-
-This code is provided solely for the personal and private use of
-students taking the CSC148 course at the University of Toronto.
-Copying for purposes other than this use is expressly prohibited.
-All forms of distribution of this code, whether as given or with
-any changes, are expressly prohibited.
-
-All of the files in this directory and all subdirectories are:
-Copyright (c) University of Toronto
-"""
 from datetime import date
 from typing import Dict, Tuple, List, Set, Optional, TextIO
 
