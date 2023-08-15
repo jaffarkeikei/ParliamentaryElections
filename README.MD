@@ -1,5 +1,14 @@
 # Parliamentary Elections
 
+Welcome to the repository for **Parliamentary Elections** - a project centered around processing and analyzing election data from parliamentary systems.
+
+## Table of Contents
+
+- [Problem Specifications](#problem-specifications)
+- [Terminology](#terminology)
+- [Election Data Files](#election-data-files)
+- [The Program](#the-program)
+
 ## Problem Specifications
 
 This repository contains a pair of classes designed to read and analyze election data. The primary aim is to process data from Canada's parliamentary system, while maintaining flexibility to accommodate similar systems in other countries.
